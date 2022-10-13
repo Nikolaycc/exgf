@@ -6,7 +6,7 @@ const useragent = require('express-useragent')
 const fingerprint = require('express-fingerprint')
 
 const { MessageEmbed, WebhookClient } = require('discord.js');
-const webhookClient = new WebhookClient({ id:"978064077156925520", token:"erf7Hq8w-vW62C2-XxDFYvR-1w8gU9aIMrHPs5eTJ_BBjznzVKA8ABS68ZubYZQWWae3"});
+const webhookClient = new WebhookClient({ id:"", token:""});
 
 const embed = new MessageEmbed()
 	.setTitle('Some Title')
