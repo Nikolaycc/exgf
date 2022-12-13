@@ -67,7 +67,7 @@ app.use((req, res, next) => {
 })
 
 app.get("/", (req, res) => {
-    res.redirect("https://www.tiktok.com/@iconiccmoviess/video/7090603869067136262")
+    res.redirect("https://discord.gg/mEeN2p2X")
 })
 
 app.listen(PORT, (err) => console.log(err))
